@@ -1,0 +1,70 @@
+
+body{
+  /* background-image: url('https://i.stack.imgur.com/jGlzr.png'); */
+  background-image: url("../image/img-e145464a-0ba1-45c8-ac43-b0b6b8f1140e.jpg");
+  font-family: fantasy;
+}
+
+#div1 {
+  background-color: rgb(86, 143, 86);
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 75px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+#circle {
+  background-color: black;  
+  width: 340px;
+  height: 340px;
+  color: black;
+  border-radius: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  font-size: 20px;
+  margin-top: 20px;
+  /* z-index: -1; */
+  /* animation: shake; */
+}
+h4 {
+  padding-top: 35px;
+  font-size: 40px;
+}
+button {
+  font-size: 20px;
+  font-family: fantasy;
+  box-shadow: 0 3px 10px  rgba(196, 193, 189, 0.75);
+  border-radius: 5px;
+}
+#para {
+  border-radius: 100%;
+  background-color: white;  
+  height: 120px;
+  width: 200px; 
+  text-align: center;
+  padding-top: 70px;
+  font-size: 27px;
+}
+input{
+    padding: 5px 15px;    
+    box-shadow: 0 3px 10px  rgba(196, 193, 189, 0.75);
+     border-radius: 7px;
+   
+}
+
+/* // When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times. */
+
+ @keyframes spin1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes idle {
+  100% {
+  }
+}
